@@ -1,0 +1,31 @@
+﻿<Window x:Class="Bai1.Bai5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai1"
+        mc:Ignorable="d"
+        Title="Bai5" Height="450" Width="800">
+    <Grid Margin="10,10,10,0" Height="200" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="140"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical" Margin="5,5,5,5">
+            <Label Content="Họ tên: "/>
+            <TextBox x:Name="txtName" TextWrapping="Wrap" Width="180" LostFocus="TextBox_LostFocus"/>
+            <Label Content="Tuổi: "/>
+            <TextBox x:Name="txtAge" TextWrapping="Wrap" Width="180" LostFocus="TextBox_LostFocus"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Vertical" Margin="5,5,5,5">
+            <Label Content="Ghi chú"/>
+            <TextBox x:Name="txtNote" TextWrapping="Wrap" Height="80" LostFocus="TextBox_LostFocus"/>
+        </StackPanel>
+        <Button Content="Thông tin" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Margin="0,10,0,10" 
+                VerticalAlignment="Top" Height="35" Width="300" Grid.ColumnSpan="2" Click="Button_Click"/>
+    </Grid>
+</Window>
