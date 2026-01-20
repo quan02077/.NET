@@ -1,0 +1,58 @@
+﻿<Window x:Class="Buoi02.Bai4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buoi02"
+        mc:Ignorable="d"
+        Title="Bai4" Height="500" Width="500" Background="#fff5d8" Loaded="Window_Loaded">
+    <Grid Margin="10" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Giải phương trình" FontSize="30" FontWeight="Bold" Foreground="Red" HorizontalAlignment="Center" Grid.Row="0"/>
+        <GroupBox Grid.Row="1" Header="Bạn vui lòng chọn" Margin="10" BorderBrush="#a2a09c" BorderThickness="1">
+            <StackPanel>
+                <RadioButton x:Name="rbBac1"
+                     Content="Phương trình bậc nhất"
+                     GroupName="LoaiPT"
+                     IsChecked="True"
+                     Checked="Radio_Checked" Margin="10"/>
+
+                <RadioButton x:Name="rbBac2"
+                     Content="Phương trình bậc hai"
+                     GroupName="LoaiPT"
+                     Checked="Radio_Checked" Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+        <Grid Margin="10" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Nhập a" Grid.Row="0" Grid.Column="0" Margin="10" Width="90"/>
+            <TextBlock Text="Nhập b" Grid.Row="1" Grid.Column="0" Margin="10" Width="90"/>
+            <TextBlock Text="Nhập c" Grid.Row="2" Grid.Column="0" Margin="10" Width="90"/>
+            <TextBox x:Name="txtA" Grid.Row="0" Grid.Column="1" Margin="10" Width="200"/>
+            <TextBox x:Name="txtB" Grid.Row="1" Grid.Column="1" Margin="10" Width="200" Height="30"/>
+            <TextBox x:Name="txtC" Grid.Row="2" Grid.Column="1" Margin="10" Width="200" IsEnabled="False"/>
+            <Button Content="Giải" Grid.Column="2" Grid.Row="0"  Height="50" Width="100" Margin="10,0,0,0" VerticalAlignment="Top" Click="Button_Click" />
+            <Button Content="Thoát" Grid.Column="2" Grid.Row="2" Height="50" Width="100" Margin="10 0 0 0 " Click="Button_Click_1"/>
+        </Grid>
+        <StackPanel Grid.Row="3" Margin="10" Orientation="Horizontal">
+            <TextBlock Text="Kết quả" Width="90" Margin="10"/>
+            <Border BorderThickness="1" BorderBrush="#a2a09c">
+                <TextBlock x:Name="txtShow" Width="330" Height="80"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,95 @@
+﻿<Window x:Class="Buoi02.Bai3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bài 3 - Bán vé rạp phim" Height="450" Width="500">
+
+    <Window.Resources>
+        <Style x:Key="SeatSize" TargetType="Button">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="8"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style x:Key="ActionButton" TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="Margin" Value="20 0 0 0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="MÀN ẢNH"
+                   FontSize="26"
+                   FontWeight="Bold"
+                   Foreground="#F19F08"
+                   HorizontalAlignment="Center"
+                   Margin="0 5"/>
+
+        <Border Grid.Row="1"
+                BorderThickness="2"
+                BorderBrush="#AEAEAE"
+                Background="#EAEAEA"
+                CornerRadius="5"
+                Margin="10">
+
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid x:Name="SeatGrid" Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Content="1"  Tag="1000" Grid.Row="0" Grid.Column="0" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="2"  Tag="1000" Grid.Row="0" Grid.Column="1" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="3"  Tag="1000" Grid.Row="0" Grid.Column="2" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="4"  Tag="1000" Grid.Row="0" Grid.Column="3" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="5"  Tag="1000" Grid.Row="0" Grid.Column="4" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+
+                    <Button Content="6"  Tag="1500" Grid.Row="1" Grid.Column="0" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="7"  Tag="1500" Grid.Row="1" Grid.Column="1" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="8"  Tag="1500" Grid.Row="1" Grid.Column="2" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="9"  Tag="1500" Grid.Row="1" Grid.Column="3" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="10" Tag="1500" Grid.Row="1" Grid.Column="4" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+
+                    <Button Content="11" Tag="2000" Grid.Row="2" Grid.Column="0" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="12" Tag="2000" Grid.Row="2" Grid.Column="1" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="13" Tag="2000" Grid.Row="2" Grid.Column="2" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="14" Tag="2000" Grid.Row="2" Grid.Column="3" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                    <Button Content="15" Tag="2000" Grid.Row="2" Grid.Column="4" Style="{StaticResource SeatSize}" Background="LightGray" Click="Seat_Click"/>
+                </Grid>
+
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Thành tiền:" Width="100"/>
+                    <TextBox x:Name="txtTotal" Width="250" IsReadOnly="True"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Chọn" Style="{StaticResource ActionButton}" Click="BtnChon_Click"/>
+            <Button Content="Hủy bỏ" Style="{StaticResource ActionButton}" Click="BtnHuy_Click"/>
+            <Button Content="Kết thúc" Style="{StaticResource ActionButton}" Click="BtnThoat_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
