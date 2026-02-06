@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HinhAnh\Add-Circle-Bold--Streamline-Ultimate.png" />
+    <None Remove="HinhAnh\Bin-1--Streamline-Ultimate.png" />
+    <None Remove="HinhAnh\Exit--Streamline-Ultimate.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="HinhAnh\Add-Circle-Bold--Streamline-Ultimate.png" />
+    <Resource Include="HinhAnh\Bin-1--Streamline-Ultimate.png" />
+    <Resource Include="HinhAnh\Exit--Streamline-Ultimate.png" />
+  </ItemGroup>
+
+</Project>

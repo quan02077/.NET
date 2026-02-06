@@ -1,0 +1,43 @@
+﻿<Window x:Class="Buoi04.Bai3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buoi04"
+        mc:Ignorable="d"
+        Title="Bai3" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Hệ Thống">
+                <MenuItem Header="Đăng nhập"/>
+                <MenuItem Header="Đổi mật khẩu"/>
+                <MenuItem Header="Thoát" Click="btn_Quit"/>
+            </MenuItem>
+            <MenuItem Header="Danh mục">
+                <MenuItem Header="Sinh viên" Click="btn_SinhVien"/>
+                <MenuItem Header="Lớp học" Click="btn_LopHoc"/>
+            </MenuItem>
+        </Menu>
+        <ToolBarTray Grid.Row="1">
+            <ToolBar>
+                <Button>
+                    <Image Source="/HinhAnh/Add-Circle-Bold--Streamline-Ultimate.png" Width="20" Height="20"/>
+                </Button>
+                <Separator/>
+                <Button>
+                    <Image Source="/HinhAnh/Bin-1--Streamline-Ultimate.png" Width="20" Height="20"/>
+                </Button>
+                <Separator/>
+                <Button Click="btn_Quit">
+                    <Image Source="/HinhAnh/Exit--Streamline-Ultimate.png" Width="20" Height="20"/>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <ContentControl x:Name="MainContent" Grid.Row="2"/>
+    </Grid>
+</Window>
