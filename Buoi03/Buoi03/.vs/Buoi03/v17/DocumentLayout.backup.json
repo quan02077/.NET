@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14B198F7-0CE3-4854-922F-6426DC945EB0}|Buoi03\\Buoi03.csproj|d:\\baitap\\.net\\buoi03\\buoi03\\buoi03\\bai5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B198F7-0CE3-4854-922F-6426DC945EB0}|Buoi03\\Buoi03.csproj|solutionrelative:buoi03\\bai5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B198F7-0CE3-4854-922F-6426DC945EB0}|Buoi03\\Buoi03.csproj|d:\\baitap\\.net\\buoi03\\buoi03\\buoi03\\bai5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14B198F7-0CE3-4854-922F-6426DC945EB0}|Buoi03\\Buoi03.csproj|solutionrelative:buoi03\\bai5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14B198F7-0CE3-4854-922F-6426DC945EB0}|Buoi03\\Buoi03.csproj|d:\\baitap\\.net\\buoi03\\buoi03\\buoi03\\bai4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B198F7-0CE3-4854-922F-6426DC945EB0}|Buoi03\\Buoi03.csproj|solutionrelative:buoi03\\bai4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +35,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Bai5.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai5.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi03\\Bai5.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai5.xaml.cs",
+              "RelativeToolTip": "Buoi03\\Bai5.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:01:33.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bai5.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai5.xaml",
+              "RelativeDocumentMoniker": "Buoi03\\Bai5.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai5.xaml",
+              "RelativeToolTip": "Buoi03\\Bai5.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-26T15:17:10.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Bai4.xaml.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai4.xaml.cs",
               "RelativeDocumentMoniker": "Buoi03\\Bai4.xaml.cs",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai4.xaml.cs",
               "RelativeToolTip": "Buoi03\\Bai4.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswEUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswEAAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T15:04:04.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Bai4.xaml",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\Bai4.xaml",
               "RelativeDocumentMoniker": "Buoi03\\Bai4.xaml",
@@ -51,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi03\\Buoi03\\Buoi03\\App.xaml",
               "RelativeDocumentMoniker": "Buoi03\\App.xaml",

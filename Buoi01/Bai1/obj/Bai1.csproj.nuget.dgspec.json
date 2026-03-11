@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaiTap\\.NET\\2001240388_NguyenNhatMinhQuan_Lab01\\Bai1\\Bai1.csproj": {}
+    "D:\\BaiTap\\.NET\\Buoi01\\Bai1\\Bai1.csproj": {}
   },
   "projects": {
-    "D:\\BaiTap\\.NET\\2001240388_NguyenNhatMinhQuan_Lab01\\Bai1\\Bai1.csproj": {
+    "D:\\BaiTap\\.NET\\Buoi01\\Bai1\\Bai1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaiTap\\.NET\\2001240388_NguyenNhatMinhQuan_Lab01\\Bai1\\Bai1.csproj",
+        "projectUniqueName": "D:\\BaiTap\\.NET\\Buoi01\\Bai1\\Bai1.csproj",
         "projectName": "Bai1",
-        "projectPath": "D:\\BaiTap\\.NET\\2001240388_NguyenNhatMinhQuan_Lab01\\Bai1\\Bai1.csproj",
+        "projectPath": "D:\\BaiTap\\.NET\\Buoi01\\Bai1\\Bai1.csproj",
         "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
-        "outputPath": "D:\\BaiTap\\.NET\\2001240388_NguyenNhatMinhQuan_Lab01\\Bai1\\obj\\",
+        "outputPath": "D:\\BaiTap\\.NET\\Buoi01\\Bai1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

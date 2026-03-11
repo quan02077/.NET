@@ -77,7 +77,7 @@ namespace Bai1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Bai1;component/bai4.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Bai1;V1.0.0.0;component/bai4.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Bai4.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

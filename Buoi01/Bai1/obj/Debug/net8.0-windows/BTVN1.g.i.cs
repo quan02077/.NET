@@ -61,7 +61,7 @@ namespace Bai1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Bai1;component/btvn1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Bai1;V1.0.0.0;component/btvn1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BTVN1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

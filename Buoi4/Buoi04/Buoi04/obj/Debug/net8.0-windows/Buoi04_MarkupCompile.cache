@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\LuuDuLieuSinhVien\NguyenNhatMinhQuan\Buoi04\Buoi04\Buoi04\obj\Debug\net8.0-windows\
+D:\BaiTap\.NET\Buoi4\Buoi04\Buoi04\obj\Debug\net8.0-windows\
 Buoi04
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-E:\LuuDuLieuSinhVien\NguyenNhatMinhQuan\Buoi04\Buoi04\Buoi04\App.xaml
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\BaiTap\.NET\Buoi4\Buoi04\Buoi04\App.xaml
 8-1447426617
 
 11-1716304719
-198-635017904
+198338916705
 Bai1.xaml;Bai2.xaml;Bai3.xaml;Bai4.xaml;UC_LopHoc.xaml;UC_NhanVien.xaml;UC_PhongBan.xaml;UC_SinhVien.xaml;
 
 False
