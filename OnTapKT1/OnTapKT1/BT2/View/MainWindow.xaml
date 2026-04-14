@@ -1,0 +1,101 @@
+﻿<Window x:Class="OnTapKT1.BT2.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnTapKT1.BT2.View"
+        xmlns:vm="clr-namespace:OnTapKT1.BT2.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800" Background="LightGray">
+    <Window.DataContext>
+        <vm:MainVM/>
+    </Window.DataContext>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Hóa đơn tính tiền" Foreground="#f7850a" FontSize="30" HorizontalAlignment="Center" Grid.ColumnSpan="2"/>
+        <StackPanel Grid.Row="1" Margin="30,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Chọn loại thức uống" Width="150"/>
+                <ComboBox Width="200" Margin="10,0,0,0" 
+          ItemsSource="{Binding LoaiSanPham}" 
+          SelectedItem="{Binding SelectionLSP}" 
+          DisplayMemberPath="TenLoai"/>
+            </StackPanel>
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Chọn nước" Width="250"/>
+                <ListBox Height="150" Width="230" Grid.Row="1" Margin="0,10,0,0" 
+         ItemsSource="{Binding DanhSachSanPhamLoc}" 
+         SelectedItem="{Binding SelectionSP}" 
+         DisplayMemberPath="TenSanPham"/>
+                <TextBlock Text="Số lượng" Grid.Column="1"/>
+                <StackPanel Grid.Column="1" Grid.Row="1">
+                    <TextBox Margin="0,10,0,0" Height="20" VerticalAlignment="Top" Width="150" Text="{Binding NewSL, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Content="Thêm" Width="100" Height="50" Margin="0,10,0,0" Command="{Binding ThemCommand}"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10,10,0,0">
+            <TextBlock Text="Chi tiết hóa đơn"/>
+            <DataGrid ItemsSource="{Binding ChiTietHoaDon}" 
+          AutoGenerateColumns="False" 
+          CanUserAddRows="False" Height="150">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Tên thức uống" Binding="{Binding TenSanPham}" Width="*"/>
+
+                    <DataGridTextColumn Header="Đơn giá" Binding="{Binding DonGia, StringFormat={}{0:N0}}" Width="80"/>
+
+                    <DataGridTextColumn Header="Số lượng" Binding="{Binding SoLuong}" Width="80"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Tổng tiền: " HorizontalAlignment="Center" Foreground="red" FontWeight="Bold"/>
+                <TextBlock Text="{Binding TongTienHienTai, StringFormat={}{0:N0}}" HorizontalAlignment="Center" Foreground="red" FontWeight="Bold"/>
+            </StackPanel>
+        </StackPanel>
+        <GroupBox Grid.Row="2" Grid.ColumnSpan="2" Header="Thông tin khách hàng">
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel>
+                    <StackPanel Margin="10" Orientation="Horizontal">
+                        <TextBlock Text="Họ tên" Width="80"/>
+                        <TextBox Width="250" Text="{Binding NewTenKH}"/>
+                    </StackPanel>
+                    <StackPanel Margin="10" Orientation="Horizontal">
+                        <TextBlock Text="Số điện thoại" Width="80"/>
+                        <TextBox Width="250" Text="{Binding NewDienThoai}"/>
+                    </StackPanel>
+                    <StackPanel Margin="10" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Tính tiền" Height="40" Width="100" Command="{Binding TinhTienCommand}"/>
+                        <Button Content="Thoát" Height="40" Width="100" Margin="100,0,0,0" Command="{Binding ThoatCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="Chọn vị trí:" Width="80"/>
+                    <ListBox Height="140" Width="200" ItemsSource="{Binding ViTri}" SelectedItem="{Binding SelectionViTri}"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

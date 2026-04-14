@@ -1,0 +1,150 @@
+﻿<Window x:Class="Buoi08.BT1.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Buoi08.BT1.ViewModel"
+        Title="Quản lý sinh viên" Height="500" Width="850">
+    <Window.DataContext>
+        <vm:MainVM/>
+    </Window.DataContext>
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisConverter"/>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" Background="#333" Foreground="White" Padding="0,2">
+            <MenuItem Header="File" Foreground="White"/>
+        </Menu>
+        <TabControl Margin="5">
+            <TabItem Header="Quản lý lớp">
+                <Grid Margin="15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="280"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0" Margin="0,0,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <GroupBox Grid.Row="1" Grid.Column="0" Header="Danh sách lớp" Margin="0,0,10,0">
+                            <TreeView Margin="5" ItemsSource="{Binding Classes}" SelectedItemChanged="TreeView_SelectedItemChanged">
+                                <TreeView.ItemTemplate>
+                                    <HierarchicalDataTemplate ItemsSource="{Binding Students}">
+                                        <TextBlock FontWeight="SemiBold" Text="{Binding Name}"/>
+                                        <HierarchicalDataTemplate.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding HoTen}"/>
+                                            </DataTemplate>
+                                        </HierarchicalDataTemplate.ItemTemplate>
+                                    </HierarchicalDataTemplate>
+                                </TreeView.ItemTemplate>
+                            </TreeView>
+                        </GroupBox>
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Text="Thông tin sinh viên" FontWeight="Bold" Margin="0,0,0,15" Grid.Row="0"/>
+
+                        <Grid Grid.Row="1" Margin="20,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Lớp:" VerticalAlignment="Center" Margin="0,5"/>
+                            <ComboBox Grid.Row="0" Grid.Column="1" Height="22" Margin="0,5" ItemsSource="{Binding Classes}" DisplayMemberPath="Name" SelectedItem="{Binding SelectionClass}"/>
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="Mã SV:" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Height="22" Margin="0,5" Text="{Binding NewId}"/>
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="Họ tên:" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Height="22" Margin="0,5" Text="{Binding NewName}"/>
+
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="Giới tính:" VerticalAlignment="Center" Margin="0,5"/>
+                            <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="0,5">
+                                <RadioButton Content="Nam" Margin="0,0,30,0" VerticalAlignment="Center" IsChecked="{Binding IsNam}"/>
+                                <RadioButton Content="Nữ" VerticalAlignment="Center" IsChecked="{Binding IsNu}"/>
+                            </StackPanel>
+
+                            <TextBlock Grid.Row="4" Grid.Column="0" Text="Thành phố:" VerticalAlignment="Center" Margin="0,5"/>
+                            <ComboBox Grid.Row="4" Grid.Column="1" Height="22" Margin="0,5" ItemsSource="{Binding Cities}" SelectedItem="{Binding SelectionCity}"/>
+
+                            <TextBlock Grid.Row="5" Grid.Column="0" Text="Địa chỉ:" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="5" Grid.Column="1" Height="22" Margin="0,5"  Text="{Binding DiaChi}"/>
+
+                            <StackPanel Grid.Row="6" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,15,0,0">
+                                <Button Content="Thêm SV" Width="85" Height="25" Margin="0,0,10,0" Background="#90CAF9" Command="{Binding AddStudentCommand}"/>
+                                <Button Content="Cập nhật SV" Width="85" Height="25" Margin="0,0,10,0" Background="#E0E0E0" Command="{Binding UpdateStudentCommand}"/>
+                                <Button Content="Xóa SV" Width="85" Height="25" Background="#E0E0E0" Command="{Binding DeleteStudentCommand}"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <Separator Grid.Row="2" Margin="0,20,0,15"/>
+
+                        <CheckBox x:Name="chkBatCheDo" Content="Bật chế độ thêm lớp" FontWeight="SemiBold" Margin="0,0,0,10" Grid.Row="5"/>
+
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding ElementName=chkBatCheDo, Path=IsChecked, Converter={StaticResource BoolToVisConverter}}" Grid.Row="4">
+
+                            <TextBox Text="{Binding NewLop}" Width="200" Height="25" Margin="0,0,10,0" VerticalContentAlignment="Center"/>
+
+                            <Button Content="Thêm lớp" Command="{Binding AddClassCommand}" Width="85" Height="25" Background="#E0E0E0"/>
+
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Danh sách sinh viên">
+                <Grid Margin="15">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="DANH SÁCH SINH VIÊN" FontSize="18" FontWeight="Bold" Margin="0,0,0,15"/>
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10" VerticalAlignment="Center">
+                        <Button Content="Xuất file" Width="100" Height="25" Background="#E0E0E0" Margin="0,0,20,0" Command="{Binding XuatFileCommand}"/>
+
+                        <TextBlock Text="Tìm theo Tên:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <TextBox Width="200" Height="25" VerticalContentAlignment="Center" Margin="0,0,20,0" Text="{Binding TuKhoaTimKiem, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <TextBlock VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <ComboBox Width="80" Height="25" SelectedIndex="0" ItemsSource="{Binding Classes}" DisplayMemberPath="Name" SelectedItem="{Binding LopLocDangChon}" />
+
+                    </StackPanel>
+
+                    <DataGrid Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" 
+                              Background="#EEEEEE" RowBackground="White" AlternatingRowBackground="White" 
+                              HeadersVisibility="Column" GridLinesVisibility="All" BorderBrush="Gray" BorderThickness="1" ItemsSource="{Binding ViewSinhVien}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Mã SV" Width="80" Binding="{Binding MaSV}"/>
+                            <DataGridTextColumn Header="Họ tên" Width="180" Binding="{Binding HoTen}"/>
+                            <DataGridTextColumn Header="Lớp" Width="100" Binding="{Binding Lop}"/>
+                            <DataGridTextColumn Header="Giới tính" Width="80" Binding="{Binding GioiTinh}"/>
+                            <DataGridTextColumn Header="Thành phố" Width="120" Binding="{Binding ThanhPho}"/>
+                            <DataGridTextColumn Header="Địa chỉ" Width="*" Binding="{Binding DiaChi}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

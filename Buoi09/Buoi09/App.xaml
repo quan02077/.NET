@@ -1,0 +1,9 @@
+﻿<Application x:Class="Buoi09.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Buoi09"
+             StartupUri="BT4/View/QL_SinhVIen.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt1\\view\\accountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt1\\view\\accountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt3\\view\\classview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt3\\view\\classview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt3\\viewmodel\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt3\\viewmodel\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt3\\view\\classview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt3\\view\\classview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt3\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt3\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt3\\model\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt3\\model\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt4\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt4\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt4\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt4\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt4\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt4\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt4\\viewmodel\\accountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt4\\viewmodel\\accountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt4\\model\\accountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt4\\model\\accountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|d:\\baitap\\.net\\buoi06\\buoi06\\bt4\\view\\taikhoanusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB6E793A-71A3-DCEC-D8B7-F4F9E0FE92AC}|Buoi06\\Buoi06.csproj|solutionrelative:buoi06\\bt4\\view\\taikhoanusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\App.xaml",
+              "RelativeDocumentMoniker": "Buoi06\\App.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\App.xaml",
+              "RelativeToolTip": "Buoi06\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T12:26:19.942Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountView.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT1\\View\\AccountView.xaml",
+              "RelativeDocumentMoniker": "Buoi06\\BT1\\View\\AccountView.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT1\\View\\AccountView.xaml",
+              "RelativeToolTip": "Buoi06\\BT1\\View\\AccountView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-29T07:14:29.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassView.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\View\\ClassView.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT3\\View\\ClassView.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\View\\ClassView.xaml.cs",
+              "RelativeToolTip": "Buoi06\\BT3\\View\\ClassView.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:32:50.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\ViewModel\\MainVM.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT3\\ViewModel\\MainVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\ViewModel\\MainVM.cs",
+              "RelativeToolTip": "Buoi06\\BT3\\ViewModel\\MainVM.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwJoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:03:45.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT3\\Model\\Student.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\Model\\Student.cs",
+              "RelativeToolTip": "Buoi06\\BT3\\Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:27:02.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\Model\\Class.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT3\\Model\\Class.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\Model\\Class.cs",
+              "RelativeToolTip": "Buoi06\\BT3\\Model\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:26:58.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassView.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\View\\ClassView.xaml",
+              "RelativeDocumentMoniker": "Buoi06\\BT3\\View\\ClassView.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT3\\View\\ClassView.xaml",
+              "RelativeToolTip": "Buoi06\\BT3\\View\\ClassView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-24T11:11:05.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaiKhoanUserControl.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\View\\TaiKhoanUserControl.xaml",
+              "RelativeDocumentMoniker": "Buoi06\\BT4\\View\\TaiKhoanUserControl.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\View\\TaiKhoanUserControl.xaml",
+              "RelativeToolTip": "Buoi06\\BT4\\View\\TaiKhoanUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-17T12:07:23.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\ViewModel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT4\\ViewModel\\RelayCommand.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\ViewModel\\RelayCommand.cs",
+              "RelativeToolTip": "Buoi06\\BT4\\ViewModel\\RelayCommand.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:24:01.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\ViewModel\\BaseVM.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT4\\ViewModel\\BaseVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\ViewModel\\BaseVM.cs",
+              "RelativeToolTip": "Buoi06\\BT4\\ViewModel\\BaseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:21:00.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Buoi06\\BT4\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\View\\MainWindow.xaml",
+              "RelativeToolTip": "Buoi06\\BT4\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-17T12:05:41.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\ViewModel\\AccountVM.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT4\\ViewModel\\AccountVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\ViewModel\\AccountVM.cs",
+              "RelativeToolTip": "Buoi06\\BT4\\ViewModel\\AccountVM.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAABEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:25:34.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountModel.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\Model\\AccountModel.cs",
+              "RelativeDocumentMoniker": "Buoi06\\BT4\\Model\\AccountModel.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi06\\Buoi06\\BT4\\Model\\AccountModel.cs",
+              "RelativeToolTip": "Buoi06\\BT4\\Model\\AccountModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:19:29.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="Buoi07.BT1.View.UCLapHoaDon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buoi07.BT1.View"
+        xmlns:vm="clr-namespace:Buoi07.BT1.ViewModel"
+        mc:Ignorable="d"
+        Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="LẬP HÓA ĐƠN" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="30" FontWeight="bold" Foreground="Orange"/>
+        <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                <TextBlock Text="Tên khách hàng: " Width="100"/>
+                <TextBox Width="300" Grid.Column="1" Margin="0,0,0,10" HorizontalAlignment="Left" Text="{Binding NewName, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock Text="Số điện thoại: " Width="100" Grid.Row="1"/>
+                <TextBox Width="150" Grid.Column="1" Grid.Row="1" Margin="0,0,0,10" HorizontalAlignment="Left" Text="{Binding SDT, UpdateSourceTrigger=PropertyChanged}"/>
+                <CheckBox Grid.Row="2" IsChecked="{Binding IsSinhVien}">Sinh Viên ?</CheckBox>
+                </Grid>
+                <StackPanel Orientation="Horizontal">
+                    <GroupBox Header="Chọn bàn" Margin="5">
+                        <StackPanel Margin="10">
+                            <RadioButton Content="Bàn 01" IsChecked="{Binding Ban01}"/>
+                        <RadioButton Content="Bàn 02" IsChecked="{Binding Ban02}"/>
+                        <RadioButton Content="Bàn 03" IsChecked="{Binding Ban03}"/>
+                        <RadioButton Content="Bàn 04" IsChecked="{Binding Ban04}"/>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Header="Thức ăn" Margin="5">
+                        <StackPanel Margin="10">
+                            <CheckBox Content="Bánh mì trứng" IsChecked="{Binding BanhMiTrung}"/>
+                            <CheckBox Content="Bánh mì cá" IsChecked="{Binding BanhMiCa}"/>
+                            <CheckBox Content="Mì tôm trứng" IsChecked="{Binding MiTomTrung}"/>
+                            <CheckBox Content="Mì xào bò" IsChecked="{Binding MiXaoBo}"/>
+                            <CheckBox Content="Mì cay" IsChecked="{Binding MiCay}"/>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Header="Nước uống" Margin="5">
+                        <StackPanel Margin="10">
+                            <CheckBox Content="Cafe đen" IsChecked="{Binding CafeDen}"/>
+                            <CheckBox Content="Cafe đá" IsChecked="{Binding CafeDa}"/>
+                            <CheckBox Content="Cafe sữa" IsChecked="{Binding CafeSua}"/>
+                            <CheckBox Content="Cafe kem" IsChecked="{Binding CafeKem}"/>
+                            <CheckBox Content="Cafe sữa đá" IsChecked="{Binding CafeSuaDa}"/>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Chọn" Margin="0,0,10,0" Width="100" Command="{Binding ChonCommand}"/>
+                    <Button Content="Nhập lại" Width="100" Command="{Binding NhapLaiCommand}"/>
+                </StackPanel>
+            </StackPanel>
+            <GroupBox Header="Thông tin khách đã chọn" Margin="5" Grid.Row="1" Grid.Column="1">
+            <StackPanel>    
+                <Border BorderBrush="LightGray" BorderThickness="1" Margin="5" Height="200" Padding="5">
+                    <TextBlock TextWrapping="Wrap" Text="{Binding ThongTinChiTiet}"/>
+                </Border>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5,10,5,5">
+                    <Button Content="Thanh toán" Width="90" Margin="0,0,20,0" Command="{Binding ThanhToanCommand}"/>
+                    <Button Content="Thoát" Width="90" Command="{Binding ThoatCommand}"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

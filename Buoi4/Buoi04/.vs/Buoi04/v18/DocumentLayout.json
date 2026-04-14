@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\uc_phongban.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\uc_phongban.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\uc_sinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\uc_sinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\uc_lophoc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\uc_lophoc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\uc_phongban.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\uc_phongban.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|d:\\baitap\\.net\\buoi4\\buoi04\\buoi04\\bai2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA88E94-1440-4391-959B-3129DA3EC14E}|Buoi04\\Buoi04.csproj|solutionrelative:buoi04\\bai2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 126,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bai1.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai1.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi04\\Bai1.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai1.xaml.cs",
+              "RelativeToolTip": "Buoi04\\Bai1.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:03.853Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_PhongBan.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_PhongBan.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi04\\UC_PhongBan.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_PhongBan.xaml.cs",
+              "RelativeToolTip": "Buoi04\\UC_PhongBan.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:49.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_NhanVien.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_NhanVien.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi04\\UC_NhanVien.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_NhanVien.xaml.cs",
+              "RelativeToolTip": "Buoi04\\UC_NhanVien.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:18:10.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bai1.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai1.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\Bai1.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai1.xaml",
+              "RelativeToolTip": "Buoi04\\Bai1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-17T12:16:57.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_LopHoc.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_LopHoc.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\UC_LopHoc.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_LopHoc.xaml",
+              "RelativeToolTip": "Buoi04\\UC_LopHoc.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_NhanVien.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_NhanVien.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\UC_NhanVien.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_NhanVien.xaml",
+              "RelativeToolTip": "Buoi04\\UC_NhanVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UC_PhongBan.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_PhongBan.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\UC_PhongBan.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_PhongBan.xaml",
+              "RelativeToolTip": "Buoi04\\UC_PhongBan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Bai2.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai2.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi04\\Bai2.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai2.xaml.cs",
+              "RelativeToolTip": "Buoi04\\Bai2.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T14:06:52.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bai2.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai2.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\Bai2.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai2.xaml",
+              "RelativeToolTip": "Buoi04\\Bai2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bai4.xaml.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai4.xaml.cs",
+              "RelativeDocumentMoniker": "Buoi04\\Bai4.xaml.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai4.xaml.cs",
+              "RelativeToolTip": "Buoi04\\Bai4.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAQwJoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T14:06:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bai4.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai4.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\Bai4.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai4.xaml",
+              "RelativeToolTip": "Buoi04\\Bai4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UC_SinhVien.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_SinhVien.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\UC_SinhVien.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\UC_SinhVien.xaml",
+              "RelativeToolTip": "Buoi04\\UC_SinhVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bai3.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai3.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\Bai3.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\Bai3.xaml",
+              "RelativeToolTip": "Buoi04\\Bai3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\App.xaml",
+              "RelativeDocumentMoniker": "Buoi04\\App.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi4\\Buoi04\\Buoi04\\App.xaml",
+              "RelativeToolTip": "Buoi04\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T14:06:52.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

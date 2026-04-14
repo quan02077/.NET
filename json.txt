@@ -1,0 +1,36 @@
+private void ExecuteXuatJson(object obj)
+        {
+            Microsoft.Win32.SaveFileDialog dialog = new Microsoft.Win32.SaveFileDialog();
+            dialog.Filter = "JSON file (*.json)|*.json";
+            dialog.Title = "Xuất danh sách sinh viên (JSON)";
+
+            if (dialog.ShowDialog() == true)
+            {
+                try
+                {
+                    // 1. Gom tất cả sinh viên đang hiện trên màn hình (ViewSinhVien) thành một List
+                    var danhSachXuat = ViewSinhVien.Cast<StudentModel>().ToList();
+
+                    // 2. Tùy chỉnh "người dịch":
+                    // - WriteIndented = true: Tự động thụt đầu dòng, xuống hàng cho file đẹp mắt.
+                    // - Encoder = ...: Bùa hộ mệnh giúp tiếng Việt (như chữ "Nguyễn") không bị biến thành mã khó hiểu (\u00D4).
+                    var options = new JsonSerializerOptions
+                    {
+                        WriteIndented = true,
+                        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                    };
+
+                    // 3. Phép thuật xuất hiện: Ép nguyên cái List thành 1 chuỗi JSON duy nhất (Chỉ 1 dòng code)
+                    string jsonString = JsonSerializer.Serialize(danhSachXuat, options);
+
+                    // 4. Lưu cái chuỗi đó vào file (Cũng chỉ 1 dòng code)
+                    System.IO.File.WriteAllText(dialog.FileName, jsonString);
+
+                    MessageBox.Show("Xuất file JSON thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi lưu file: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }

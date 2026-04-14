@@ -1,0 +1,70 @@
+﻿<Window x:Class="KT1.B1.B1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KT1.B1"
+        mc:Ignorable="d"
+        Title="B1" Height="450" Width="800">
+    <Grid Margin="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Họ và tên:" Width="150"/>
+                <TextBox x:Name="txtName" Width="200" Height="25"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Giới tính:" Width="150"/>
+                <RadioButton x:Name="radNam" Content="Nam"/>
+                <RadioButton x:Name="radNu" Content="Nữ" Margin="30,0,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Ngày sinh:" Width="150"/>
+                <DatePicker x:Name="dpNgaySinh" Width="200" Height="25"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Sở thích:" Width="150"/>
+                <StackPanel>
+                    <CheckBox x:Name="chkDocSach" Content="Đọc sách"/>
+                    <CheckBox x:Name="chkNgheNhac" Content="Nghe nhạc" Margin="0,10,0,0"/>
+                    <CheckBox x:Name="chkTheThao" Content="Thể thao" Margin="0,10,0,0"/>
+                    <CheckBox x:Name="chkDuLich" Content="Du lịch" Margin="0,10,0,0"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Kỹ năng:" Width="150"/>
+                <ListBox Width="200" Height="90" x:Name="lstKyNang" SelectionMode="Multiple">
+                    <ListBoxItem Content="C#"/>
+                    <ListBoxItem Content="Java"/>
+                    <ListBoxItem Content="Python"/>
+                    <ListBoxItem Content="Web"/>
+                </ListBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Nghề nghiệp:" Width="150"/>
+                <TextBox Width="200" Height="25" x:Name="txtNgheNghiep"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Quốc tịch:" Width="150"/>
+                <ComboBox Width="200" Height="25" x:Name="cmbQuocTich">
+                    <ComboBoxItem Content="Việt Nam"/>
+                    <ComboBoxItem Content="Mỹ"/>
+                    <ComboBoxItem Content="Nhật"/>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <Button Content="Xem thông tin" Width="150" Height="20" Margin="0,20,20,0" Click="BtnShow_Click"/>
+            <Button Content="Thoát" Width="150" Height="20" Margin="0,20,20,0" Click="BtnQuit_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

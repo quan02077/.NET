@@ -1,0 +1,82 @@
+﻿<Window x:Class="KT1.B2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KT1.B2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="1055">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="THANH TOÁN PHÒNG THUÊ" Foreground="OrangeRed" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10,10,0,10">
+            <TextBlock Text="Họ tên khách hàng:" Width="150"/>
+            <TextBox Width="870" Height="25"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10,10,0,10">
+            <TextBlock Text="Số điện thoại:" Width="150"/>
+            <TextBox Width="870" Height="25"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="10,10,0,10">
+            <TextBlock Text="Số ngày lưu trú:" Width="500"/>
+            <TextBox Width="150" Height="25"/>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="10,10,0,10">
+            <GroupBox Header="Loại phòng" Width="340">
+                <StackPanel>
+                    <RadioButton Content="Phòng đơn"/>
+                    <RadioButton Content="Phòng đôi"/>
+                    <RadioButton Content="Phòng VIP"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Tiện nghi" Width="340">
+                <StackPanel>
+                    <RadioButton Content="Giặt ủi"/>
+                    <RadioButton Content="Ăn uống"/>
+                    <RadioButton Content="Xông hơi"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Dịch vụ" Width="340">
+                <StackPanel>
+                    <RadioButton Content="Karaoke"/>
+                    <RadioButton Content="Dịch vụ làm đẹp"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="10,10,0,10" HorizontalAlignment="Center">
+            <Button Content="Thanh toán" Width="100" Height="20" Margin="0,0,10,0"/>
+            <Button Content="Nhập mới" Width="100" Height="20" Margin="0,0,10,0"/>
+            <Button Content="Xóa dòng" Width="100" Height="20" Margin="0,0,10,0"/>
+            <Button Content="thoát" Width="100" Height="20" Margin="0,0,10,0"/>
+        </StackPanel>
+        <DataGrid Grid.Row="6" Margin="10" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Width="50"/>
+                <DataGridTextColumn Header="Họ tên" Width="150"/>
+                <DataGridTextColumn Header="Số điện thoại" Width="150"/>
+                <DataGridTextColumn Header="Ngày" Width="50"/>
+                <DataGridTextColumn Header="Phòng" Width="100"/>
+                <DataGridTextColumn Header="Tiện nghi" Width="200"/>
+                <DataGridTextColumn Header="Dịch vụ" Width="200"/>
+                <DataGridTextColumn Header="Tổng tiền" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Grid.Row="7" Header="Tổng kết" Margin="10">
+            <StackPanel>
+                <TextBlock Text="Số lượt người lưu trú:" Margin="10" FontWeight="Bold"/>
+                <TextBlock Text="2" Margin="10,0,0,0"/>
+                <TextBlock Text="Tổng doanh thu:" Margin="10" FontWeight="Bold"/>
+                <TextBlock Text="24645" Margin="10,0,0,0"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

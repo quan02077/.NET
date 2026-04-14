@@ -1,0 +1,64 @@
+﻿<Window x:Class="OnTapKT1.BT1.BT1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnTapKT1.BT1"
+        mc:Ignorable="d"
+        Title="BT1" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Mã sinh viên:" VerticalAlignment="Center" Margin="0,0,0,15"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Height="25" Margin="0,0,0,15" x:Name="txtId"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Họ tên:" VerticalAlignment="Center" Margin="0,0,0,15"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Height="25" Margin="0,0,0,15" x:Name="txtName"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Giới tính:" VerticalAlignment="Center" Margin="0,0,0,15"/>
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+            <RadioButton Content="Nam" Margin="0,0,20,0" GroupName="GioiTinh" x:Name="radNam"/>
+            <RadioButton x:Name="radNu" Content="Nữ" GroupName="GioiTinh"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Sở thích:" VerticalAlignment="Center" Margin="0,0,0,15"/>
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+            <CheckBox Content="Thể thao" Margin="0,0,15,0" x:Name="chkTheThao"/>
+            <CheckBox Content="Âm nhạc" Margin="0,0,15,0" x:Name="chkAmNhac"/>
+            <CheckBox Content="Du lịch" x:Name="chkDuLich"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Lớp:" VerticalAlignment="Center" Margin="0,0,0,15"/>
+        <ComboBox Grid.Row="4" Grid.Column="1" Height="25" Margin="0,0,0,15" x:Name="cmbLop">
+            <ComboBoxItem Content="15DH01"/>
+            <ComboBoxItem Content="15DH02"/>
+            <ComboBoxItem Content="15DH03"/>
+            <ComboBoxItem Content="15DH04"/>
+        </ComboBox>
+
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Môn học:" VerticalAlignment="Top" Margin="0,5,0,20"/>
+        <ListBox Grid.Row="5" Grid.Column="1" Height="80" Margin="0,0,0,20" x:Name="lstMonHoc" SelectionMode="Multiple">
+            <ListBoxItem Content="Lập trình C#"/>
+            <ListBoxItem Content="Cơ sở dữ liệu"/>
+            <ListBoxItem Content="WPF"/>
+        </ListBox>
+
+        <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button Content="Lưu" Width="90" Height="28" Margin="0,0,30,0" Background="#E0E0E0" Click="BtnSave_Click"/>
+            <Button Content="Thoát" Width="90" Height="28" Background="#E0E0E0" Click="BtnQuit_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

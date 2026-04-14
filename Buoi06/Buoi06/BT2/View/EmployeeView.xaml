@@ -1,0 +1,81 @@
+﻿<Window x:Class="Buoi06.BT2.View.EmployeeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buoi06.BT2.View"
+        xmlns:vm="clr-namespace:Buoi06.BT2.ViewModel"
+        mc:Ignorable="d"
+        Title="EmployeeView" Height="auto" Width="800">
+    <Window.DataContext>
+        <vm:MainVM/>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+        </Style>
+        <Style x:Key="txtBox" TargetType="TextBox">
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="20"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="10">
+                <Label Content="Phòng ban" FontWeight="Bold" Margin="0,0,0,10"/>
+                <TreeView Height="auto" Width="250" Margin="0,0,0,10" ItemsSource="{Binding Departments}" SelectedItemChanged="TreeView_SelectedItemChanged">
+                    <TreeView.ItemTemplate>
+                        <HierarchicalDataTemplate ItemsSource="{Binding Employees}">
+                            <TextBlock Text="{Binding Name}"/>
+                            <HierarchicalDataTemplate.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding FullName}"/>
+                                </DataTemplate>
+                            </HierarchicalDataTemplate.ItemTemplate>
+                        </HierarchicalDataTemplate>
+                    </TreeView.ItemTemplate>
+                </TreeView>
+                <Label Content="Phòng ban" Margin="0,0,0,10"/>
+                <TextBox Width="250" Margin="0,0,0,10" Text="{Binding NewDepartmentName, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Content="Thêm phòng ban" Width="250" Margin="0,0,0,10" Command="{Binding AddDepartmentCommand}"/>
+                <Button Content="Xóa phòng ban" Width="250" Margin="0,0,0,10" Command="{Binding RemoveDepartmentCommand}"/>
+            </StackPanel>
+            <GroupBox Header="HỒ SƠ NHÂN VIÊN" Grid.Column="1" Margin="20" Width="690">
+                <Grid Margin="10,0,-12,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="200"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Mã số" Width="150"/>
+                    <Label Content="Họ tên" Width="150" Grid.Row="1"/>
+                    <Label Content="Địa chỉ" Width="150" Grid.Row="2"/>
+                    <Label Content="Phòng ban" Width="150" Grid.Row="3"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding EmployeeId}"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding EmployeeName}"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding EmployeeAddress}"/>
+                    <ComboBox ItemsSource="{Binding Departments}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedDepartment}" Grid.Row="3" Grid.Column="1" Width="200"/>
+                    <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal" Margin="0,10,0,0">
+                        <Button Content="Thêm" Width="100" Command="{Binding AddEmployeeCommand}"/>
+                        <Button Content="Thoát" Width="100" Click="Exit_Click"/>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>

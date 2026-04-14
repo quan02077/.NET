@@ -1,0 +1,9 @@
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\Buoi10.csproj.AssemblyReference.cache
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\BT2\View\QL_Lop.g.cs
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\BT3\View\QL_Diem.g.cs
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\BT4\View\QL_Mon.g.cs
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\App.g.cs
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\Buoi10_Content.g.cs
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\Buoi10_MarkupCompile.cache
+D:\BaiTap\.NET\Buoi10\Buoi10\obj\Debug\Buoi10_MarkupCompile.lref
