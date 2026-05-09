@@ -7,9 +7,9 @@
         xmlns:vm="clr-namespace:Buoi10.BT2.ViewModel"
         mc:Ignorable="d"
         Title="QL_Lop" Height="450" Width="800">
-    <Window.DataContext>
+    <!--<Window.DataContext>
         <vm:LopVM/>
-    </Window.DataContext>
+    </Window.DataContext>-->
     <Grid Margin="15">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>

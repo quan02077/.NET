@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|d:\\baitap\\.net\\buoi10\\buoi10\\bt5\\viewmodel\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt5\\viewmodel\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|D:\\BaiTap\\.NET\\Buoi10\\buoi10\\bt5\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt5\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,31 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SinhVienVM.cs",
-              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT5\\ViewModel\\SinhVienVM.cs",
-              "RelativeDocumentMoniker": "Buoi10\\BT5\\ViewModel\\SinhVienVM.cs",
-              "ToolTip": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT5\\ViewModel\\SinhVienVM.cs",
-              "RelativeToolTip": "Buoi10\\BT5\\ViewModel\\SinhVienVM.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAswJMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T15:04:51.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT5\\ViewModel\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Buoi10\\BT5\\ViewModel\\RelayCommand.cs",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT5\\ViewModel\\RelayCommand.cs",
               "RelativeToolTip": "Buoi10\\BT5\\ViewModel\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T15:04:46.252Z"
+              "WhenOpened": "2026-04-13T15:04:46.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "QL_SinhVien.xaml",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT5\\View\\QL_SinhVien.xaml",
               "RelativeDocumentMoniker": "Buoi10\\BT5\\View\\QL_SinhVien.xaml",
@@ -70,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MonVM.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT4\\ViewModel\\MonVM.cs",
               "RelativeDocumentMoniker": "Buoi10\\BT4\\ViewModel\\MonVM.cs",
@@ -82,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "QL_Mon.xaml",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT4\\View\\QL_Mon.xaml",
               "RelativeDocumentMoniker": "Buoi10\\BT4\\View\\QL_Mon.xaml",
