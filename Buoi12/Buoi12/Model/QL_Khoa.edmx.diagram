@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="684c9bd9d3ba4a2da35995b98cf555db" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_KhoModel.CHITIETPHIEUNHAP" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KhoModel.LOAISANPHAM" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KhoModel.NHACUNGCAP" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KhoModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KhoModel.PHIEUNHAP" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KhoModel.SANPHAM" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KhoModel.TONKHO_NGAY" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="QL_KhoModel.FK__CHITIETPH__MAPHI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KhoModel.FK__CHITIETPH__MASAN__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KhoModel.FK__SANPHAM__MALOAIS__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KhoModel.FK__PHIEUNHAP__MANCC__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KhoModel.FK__PHIEUNHAP__MANV__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KhoModel.FK__TONKHO_NG__MASAN__3D5E1FD2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|d:\\baitap\\.net\\buoi09\\buoi09\\bt4\\viewmodel\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|D:\\BaiTap\\.NET\\Buoi09\\buoi09\\bt4\\viewmodel\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt4\\viewmodel\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|d:\\baitap\\.net\\buoi09\\buoi09\\bt4\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt4\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|d:\\baitap\\.net\\buoi09\\buoi09\\bt5\\viewmodel\\monhocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt5\\viewmodel\\monhocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|d:\\baitap\\.net\\buoi09\\buoi09\\bt6\\viewmodel\\diemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|D:\\BaiTap\\.NET\\Buoi09\\buoi09\\bt6\\viewmodel\\diemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt6\\viewmodel\\diemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|d:\\baitap\\.net\\buoi09\\buoi09\\bt3\\viewmodel\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|D:\\BaiTap\\.NET\\Buoi09\\buoi09\\bt6\\view\\ql_diem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt6\\view\\ql_diem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|D:\\BaiTap\\.NET\\Buoi09\\buoi09\\bt4\\view\\ql_sinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt4\\view\\ql_sinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|D:\\BaiTap\\.NET\\Buoi09\\buoi09\\bt5\\view\\ql_mon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt5\\view\\ql_mon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|D:\\BaiTap\\.NET\\Buoi09\\buoi09\\bt3\\viewmodel\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97651CFB-81D4-4284-BF84-2F4F0A5D32BA}|Buoi09\\Buoi09.csproj|solutionrelative:buoi09\\bt3\\viewmodel\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,8 +50,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT4\\ViewModel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Buoi09\\BT4\\ViewModel\\RelayCommand.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT4\\ViewModel\\RelayCommand.cs",
+              "RelativeToolTip": "Buoi09\\BT4\\ViewModel\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T15:00:10.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QL_Diem.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT6\\View\\QL_Diem.xaml",
+              "RelativeDocumentMoniker": "Buoi09\\BT6\\View\\QL_Diem.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT6\\View\\QL_Diem.xaml",
+              "RelativeToolTip": "Buoi09\\BT6\\View\\QL_Diem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T07:50:19.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QL_SinhVIen.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT4\\View\\QL_SinhVIen.xaml",
+              "RelativeDocumentMoniker": "Buoi09\\BT4\\View\\QL_SinhVIen.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT4\\View\\QL_SinhVIen.xaml*",
+              "RelativeToolTip": "Buoi09\\BT4\\View\\QL_SinhVIen.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T07:45:47.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QL_Mon.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT5\\View\\QL_Mon.xaml",
+              "RelativeDocumentMoniker": "Buoi09\\BT5\\View\\QL_Mon.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT5\\View\\QL_Mon.xaml*",
+              "RelativeToolTip": "Buoi09\\BT5\\View\\QL_Mon.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T07:42:11.676Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,40 +106,39 @@
               "RelativeDocumentMoniker": "Buoi09\\BT4\\ViewModel\\SinhVienVM.cs",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT4\\ViewModel\\SinhVienVM.cs",
               "RelativeToolTip": "Buoi09\\BT4\\ViewModel\\SinhVienVM.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAKMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwKMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T15:05:08.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MonHocVM.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT5\\ViewModel\\MonHocVM.cs",
               "RelativeDocumentMoniker": "Buoi09\\BT5\\ViewModel\\MonHocVM.cs",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT5\\ViewModel\\MonHocVM.cs",
               "RelativeToolTip": "Buoi09\\BT5\\ViewModel\\MonHocVM.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAI4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwJQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T15:03:48.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DiemVM.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT6\\ViewModel\\DiemVM.cs",
               "RelativeDocumentMoniker": "Buoi09\\BT6\\ViewModel\\DiemVM.cs",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT6\\ViewModel\\DiemVM.cs",
               "RelativeToolTip": "Buoi09\\BT6\\ViewModel\\DiemVM.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwFwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T15:01:30.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T15:01:30.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "LopVM.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT3\\ViewModel\\LopVM.cs",
               "RelativeDocumentMoniker": "Buoi09\\BT3\\ViewModel\\LopVM.cs",
@@ -85,12 +146,11 @@
               "RelativeToolTip": "Buoi09\\BT3\\ViewModel\\LopVM.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:37:58.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:37:58.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "KhoaVM.cs",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT1\\ViewModel\\KhoaVM.cs",
               "RelativeDocumentMoniker": "Buoi09\\BT1\\ViewModel\\KhoaVM.cs",
@@ -102,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "QL_Khoa.xaml",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi09\\Buoi09\\BT1\\View\\QL_Khoa.xaml",
               "RelativeDocumentMoniker": "Buoi09\\BT1\\View\\QL_Khoa.xaml",

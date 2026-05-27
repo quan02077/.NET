@@ -1,0 +1,9 @@
+﻿<Application x:Class="Buoi12.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Buoi12"
+             StartupUri="BT2_BT4/BT2.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

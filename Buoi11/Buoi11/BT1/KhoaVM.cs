@@ -13,7 +13,7 @@ namespace Buoi11.BT1
 {
     public class KhoaVM:BaseVM  
     {
-        private QuanLySinhVienEntities db = new QuanLySinhVienEntities();
+        private QuanLySinhVienEntities1 db = new QuanLySinhVienEntities1();
         public ObservableCollection<Khoa> DS_Khoa { get; set; }
         private Khoa selectedKhoa;
         public Khoa SelectedKhoa
@@ -90,20 +90,33 @@ namespace Buoi11.BT1
                 MessageBox.Show("Dữ liệu không hợp lệ. Vui lòng kiểm tra lại!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-            SelectedKhoa.TenKhoa = NewKhoa.TenKhoa;
-            db.SaveChanges();
-            MessageBox.Show("Cập nhật thành công!", "Thông báo");
+            var khoa = db.Khoas.Find(SelectedKhoa.MaKhoa);
+
+            if (khoa != null)
+            {
+                SelectedKhoa.TenKhoa = NewKhoa.TenKhoa;
+                db.SaveChanges();
+                LoadData();
+                MessageBox.Show("Cập nhật thành công!");
+            }
         }
         private void ThucThiXoa(object obj)
         {
             if (SelectedKhoa == null)
             {
-                MessageBox.Show("Vui lòng chọn khoa để xóa!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show(
+                    "Vui lòng chọn khoa để xóa!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
-            }   
-            db.Khoas.Remove(SelectedKhoa);
-            db.SaveChanges();
-            MessageBox.Show("Xóa thành công!", "Thông báo");
+            }
+            var khoa = db.Khoas.Find(SelectedKhoa.MaKhoa);
+
+            if (khoa != null)
+            {
+                db.Khoas.Remove(khoa);
+                db.SaveChanges();
+                DS_Khoa.Remove(SelectedKhoa);
+                MessageBox.Show("Xóa thành công!");
+            }
         }
         void LoadData()
         {

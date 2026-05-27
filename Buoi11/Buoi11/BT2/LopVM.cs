@@ -9,7 +9,7 @@ namespace Buoi11.BT2
 {
     public class LopVM : BaseVM
     {
-        private QuanLySinhVienEntities db = new QuanLySinhVienEntities();
+        private QuanLySinhVienEntities1 db = new QuanLySinhVienEntities1();
         public ObservableCollection<Lop> DS_Lop { get; set; }
         public ObservableCollection<Khoa> DS_Khoa { get; set; }
 

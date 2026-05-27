@@ -3,23 +3,43 @@
   "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\bt2\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt2\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\bt4\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt4\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\bt2\\ql_lop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt2\\ql_lop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\vm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\vm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\bt2\\lopinputviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt2\\lopinputviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\vm\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\vm\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|d:\\baitap\\.net\\buoi11\\buoi11\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\bt6\\ql_sv.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt6\\ql_sv.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\bt6\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt6\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\bt4\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt4\\sinhvienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\bt2\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt2\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\bt5\\monhocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\bt5\\monhocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|D:\\BaiTap\\.NET\\Buoi11\\buoi11\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B49FD949-1CC9-4B93-A3E2-AB1FF3B4DF26}|Buoi11\\Buoi11.csproj|solutionrelative:buoi11\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -47,55 +67,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "App.config",
               "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\App.config",
               "RelativeDocumentMoniker": "Buoi11\\App.config",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\App.config",
               "RelativeToolTip": "Buoi11\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-04-14T12:25:04.459Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LopInputViewModel.cs",
-              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\LopInputViewModel.cs",
-              "RelativeDocumentMoniker": "Buoi11\\BT2\\LopInputViewModel.cs",
-              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\LopInputViewModel.cs",
-              "RelativeToolTip": "Buoi11\\BT2\\LopInputViewModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:18:53.046Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LopVM.cs",
-              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\LopVM.cs",
-              "RelativeDocumentMoniker": "Buoi11\\BT2\\LopVM.cs",
-              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\LopVM.cs",
-              "RelativeToolTip": "Buoi11\\BT2\\LopVM.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAmwMAAAAAJAAAAAAAAAA==",
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT4\\MainVM.cs",
+              "RelativeDocumentMoniker": "Buoi11\\BT4\\MainVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT4\\MainVM.cs",
+              "RelativeToolTip": "Buoi11\\BT4\\MainVM.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:18:19.229Z",
+              "WhenOpened": "2026-05-11T15:14:38.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QL_Lop.xaml",
-              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\QL_Lop.xaml",
-              "RelativeDocumentMoniker": "Buoi11\\BT2\\QL_Lop.xaml",
-              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\QL_Lop.xaml",
-              "RelativeToolTip": "Buoi11\\BT2\\QL_Lop.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T13:15:14.976Z",
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\VM\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Buoi11\\VM\\RelayCommand.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\VM\\RelayCommand.cs",
+              "RelativeToolTip": "Buoi11\\VM\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T14:02:18.928Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\VM\\BaseVM.cs",
+              "RelativeDocumentMoniker": "Buoi11\\VM\\BaseVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\VM\\BaseVM.cs",
+              "RelativeToolTip": "Buoi11\\VM\\BaseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T14:01:45.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LopVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\LopVM.cs",
+              "RelativeDocumentMoniker": "Buoi11\\BT2\\LopVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT2\\LopVM.cs",
+              "RelativeToolTip": "Buoi11\\BT2\\LopVM.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA0wHkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T10:53:04.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonHocVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT5\\MonHocVM.cs",
+              "RelativeDocumentMoniker": "Buoi11\\BT5\\MonHocVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT5\\MonHocVM.cs",
+              "RelativeToolTip": "Buoi11\\BT5\\MonHocVM.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAF0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T08:55:06.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SinhVienVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT4\\SinhVienVM.cs",
+              "RelativeDocumentMoniker": "Buoi11\\BT4\\SinhVienVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT4\\SinhVienVM.cs",
+              "RelativeToolTip": "Buoi11\\BT4\\SinhVienVM.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wF4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T10:34:54.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SinhVienVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT6\\SinhVienVM.cs",
+              "RelativeDocumentMoniker": "Buoi11\\BT6\\SinhVienVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT6\\SinhVienVM.cs",
+              "RelativeToolTip": "Buoi11\\BT6\\SinhVienVM.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwvywAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T10:31:49.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QL_SV.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT6\\QL_SV.xaml",
+              "RelativeDocumentMoniker": "Buoi11\\BT6\\QL_SV.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi11\\Buoi11\\BT6\\QL_SV.xaml",
+              "RelativeToolTip": "Buoi11\\BT6\\QL_SV.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T08:39:10.406Z"
             }
           ]
         }

@@ -1,0 +1,89 @@
+﻿<Window x:Class="Buoi12.BT3.BT3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buoi12.BT3"
+        mc:Ignorable="d"
+        Title="BT3" Height="450" Width="800">
+    <Window.DataContext>
+        <local:PhieuNhapVM/>
+    </Window.DataContext>
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" BorderBrush="#E0E0E0" BorderThickness="1" CornerRadius="4" Margin="0,0,15,0" Padding="20">
+            <StackPanel>
+                <TextBlock Text="THÔNG TIN PHIẾU NHẬP" FontWeight="Bold" FontSize="15" Margin="0,0,0,25"/>
+
+                <TextBlock Text="Ngày nhập" Margin="0,0,0,5" Foreground="#333333"/>
+                <DatePicker Margin="0,0,0,15" Padding="4" SelectedDate="{Binding NgayNhap}" IsEnabled="False"/>
+
+                <TextBlock Text="Nhà cung cấp" Margin="0,0,0,5" Foreground="#333333"/>
+                <ComboBox Margin="0,0,0,30" Padding="4" ItemsSource="{Binding DanhSachNCC}" DisplayMemberPath="TENNCC" SelectedItem="{Binding SelectedNCC}"/>
+
+                <TextBlock Text="TỔNG TIỀN" Foreground="#888888" FontSize="14" FontWeight="SemiBold"/>
+                <TextBlock FontWeight="Bold" FontSize="22" HorizontalAlignment="Right" Margin="0,5,0,25" Text="{Binding TongTien}"/>
+
+                <Button Content="TẠO PHIẾU" Height="35" Background="#F5F5F5" BorderBrush="#D0D0D0" FontWeight="SemiBold" Foreground="#666666" Cursor="Hand" Command="{Binding TaoPhieuCmd}"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Column="1" BorderBrush="#E0E0E0" BorderThickness="1" CornerRadius="4" Padding="15">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="CHI TIẾT PHIẾU NHẬP" FontWeight="Bold" FontSize="15" Margin="0,0,0,15"/>
+
+                <Grid Grid.Row="1" Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ComboBox Grid.Column="0" Margin="0,0,10,0" Padding="4" IsEditable="True" ItemsSource="{Binding DanhSachSP}" DisplayMemberPath="TENSANPHAM" SelectedItem="{Binding SelectedSP}"/>
+                    <TextBox Grid.Column="1" Margin="0,0,10,0" Padding="4" Text="{Binding SoLuongNhap, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Grid.Column="2" Margin="0,0,10,0" Padding="4" Text="{Binding DonGiaNhap, UpdateSourceTrigger=PropertyChanged}"/>
+
+                    <Button Grid.Column="3" Content="Thêm" Width="80" Background="#E1E1E1" BorderBrush="#ADADAD" Cursor="Hand" Command="{Binding ThemChiTietCmd}"/>
+                </Grid>
+
+                <DataGrid Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" HeadersVisibility="Column" 
+          Background="#F0F4F8" RowBackground="White" AlternatingRowBackground="#FAFAFA"
+          GridLinesVisibility="All" HorizontalGridLinesBrush="#E0E0E0" VerticalGridLinesBrush="#E0E0E0"
+          ItemsSource="{Binding DanhSachChiTiet}"
+          SelectedItem="{Binding SelectedChiTiet}">
+
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Xóa chi tiết này" 
+                      Command="{Binding PlacementTarget.DataContext.XoaChiTietCmd, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Sản phẩm" Width="2.5*" Binding="{Binding TenSP}"/>
+                        <DataGridTextColumn Header="Số lượng" Width="1*" Binding="{Binding SoLuong}"/>
+                        <DataGridTextColumn Header="Đơn giá" Width="1.5*" Binding="{Binding DonGia, StringFormat={}{0:N0}}"/>
+                        <DataGridTextColumn Header="Thành tiền" Width="1.5*" Binding="{Binding ThanhTien, StringFormat={}{0:N0}}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,15,0,0">
+                    <Button Content="LƯU PHIẾU" Width="100" Height="30" Margin="0,0,10,0" Background="#E1E1E1" BorderBrush="#ADADAD" Cursor="Hand" Command="{Binding LuuPhieuCmd}"/>
+                    <Button Content="HỦY" Width="80" Height="30" Background="#E1E1E1" BorderBrush="#ADADAD" Cursor="Hand" Command="{Binding HuyCmd}"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

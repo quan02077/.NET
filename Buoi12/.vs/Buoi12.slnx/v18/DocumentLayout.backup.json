@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BaiTap\\.NET\\Buoi12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|d:\\baitap\\.net\\buoi12\\buoi12\\bt2_bt4\\bt2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|solutionrelative:buoi12\\bt2_bt4\\bt2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|d:\\baitap\\.net\\buoi12\\buoi12\\bt2_bt4\\bt2vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|solutionrelative:buoi12\\bt2_bt4\\bt2vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|d:\\baitap\\.net\\buoi12\\buoi12\\bt1\\dangnhapvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|solutionrelative:buoi12\\bt1\\dangnhapvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|D:\\BaiTap\\.NET\\Buoi12\\buoi12\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|solutionrelative:buoi12\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|d:\\baitap\\.net\\buoi12\\buoi12\\bt2_bt4\\ucphieunhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|solutionrelative:buoi12\\bt2_bt4\\ucphieunhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|d:\\baitap\\.net\\buoi12\\buoi12\\bt2_bt4\\ucdangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DABE005-A745-4F81-8DCF-3F1A5694D1ED}|Buoi12\\Buoi12.csproj|solutionrelative:buoi12\\bt2_bt4\\ucdangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\App.xaml",
+              "RelativeDocumentMoniker": "Buoi12\\App.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\App.xaml",
+              "RelativeToolTip": "Buoi12\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T14:55:16.378Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DangNhapVM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT1\\DangNhapVM.cs",
+              "RelativeDocumentMoniker": "Buoi12\\BT1\\DangNhapVM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT1\\DangNhapVM.cs",
+              "RelativeToolTip": "Buoi12\\BT1\\DangNhapVM.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv2wAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T07:15:23.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ucPhieuNhap.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\ucPhieuNhap.xaml",
+              "RelativeDocumentMoniker": "Buoi12\\BT2_BT4\\ucPhieuNhap.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\ucPhieuNhap.xaml",
+              "RelativeToolTip": "Buoi12\\BT2_BT4\\ucPhieuNhap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T07:12:57.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ucDangNhap.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\ucDangNhap.xaml",
+              "RelativeDocumentMoniker": "Buoi12\\BT2_BT4\\ucDangNhap.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\ucDangNhap.xaml",
+              "RelativeToolTip": "Buoi12\\BT2_BT4\\ucDangNhap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T07:12:52.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BT2.xaml",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\BT2.xaml",
+              "RelativeDocumentMoniker": "Buoi12\\BT2_BT4\\BT2.xaml",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\BT2.xaml",
+              "RelativeToolTip": "Buoi12\\BT2_BT4\\BT2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T07:12:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BT2VM.cs",
+              "DocumentMoniker": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\BT2VM.cs",
+              "RelativeDocumentMoniker": "Buoi12\\BT2_BT4\\BT2VM.cs",
+              "ToolTip": "D:\\BaiTap\\.NET\\Buoi12\\Buoi12\\BT2_BT4\\BT2VM.cs",
+              "RelativeToolTip": "Buoi12\\BT2_BT4\\BT2VM.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwFAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:48:57.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

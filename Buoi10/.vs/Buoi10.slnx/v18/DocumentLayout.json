@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt2\\viewmodel\\lopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|d:\\baitap\\.net\\buoi10\\buoi10\\bt2\\view\\ql_lop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|D:\\BaiTap\\.NET\\Buoi10\\buoi10\\bt2\\view\\ql_lop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt2\\view\\ql_lop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|d:\\baitap\\.net\\buoi10\\buoi10\\bt1\\viewmodel\\khoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|D:\\BaiTap\\.NET\\Buoi10\\buoi10\\bt1\\viewmodel\\khoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt1\\viewmodel\\khoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|d:\\baitap\\.net\\buoi10\\buoi10\\bt5\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|D:\\BaiTap\\.NET\\Buoi10\\buoi10\\bt5\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt5\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|d:\\baitap\\.net\\buoi10\\buoi10\\bt1\\view\\ql_khoa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|D:\\BaiTap\\.NET\\Buoi10\\buoi10\\bt1\\view\\ql_khoa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7E4F1F69-BE1A-40B4-B5CF-082BC08EE122}|Buoi10\\Buoi10.csproj|solutionrelative:buoi10\\bt1\\view\\ql_khoa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Buoi10\\BT2\\ViewModel\\LopVM.cs",
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT2\\ViewModel\\LopVM.cs",
               "RelativeToolTip": "Buoi10\\BT2\\ViewModel\\LopVM.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwEAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T13:33:43.775Z",
               "EditorCaption": ""
@@ -66,8 +66,7 @@
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT2\\View\\QL_Lop.xaml",
               "RelativeToolTip": "Buoi10\\BT2\\View\\QL_Lop.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T13:15:19.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T13:15:19.677Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Buoi10\\BT1\\ViewModel\\KhoaVM.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:48:14.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T12:48:14.7Z"
             },
             {
               "$type": "Document",
@@ -91,8 +89,7 @@
               "ToolTip": "D:\\BaiTap\\.NET\\Buoi10\\Buoi10\\BT1\\View\\QL_Khoa.xaml",
               "RelativeToolTip": "Buoi10\\BT1\\View\\QL_Khoa.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T12:06:26.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T12:06:26.168Z"
             },
             {
               "$type": "Document",
@@ -104,8 +101,7 @@
               "RelativeToolTip": "Buoi10\\BT5\\ViewModel\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T15:04:46.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T15:04:46.252Z"
             },
             {
               "$type": "Document",
