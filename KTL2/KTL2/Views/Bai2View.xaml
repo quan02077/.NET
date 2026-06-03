@@ -1,0 +1,86 @@
+﻿<Window x:Class="KTL2.Views.Bai2View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KTL2.Views"
+        xmlns:vm="clr-namespace:KTL2.ViewModels"
+        mc:Ignorable="d"
+        Title="frmTimKiem"
+        Height="280"
+        Width="680"
+        Background="LightGray">
+    <Window.DataContext>
+        <vm:Bai2VM/>
+    </Window.DataContext>
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="0,20,0,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Chọn tầng"
+                           Width="80"
+                           VerticalAlignment="Center"/>
+                <ComboBox x:Name="cmbTang" Grid.Row="0" Grid.Column="1" Height="30" VerticalContentAlignment="Center" 
+                    ItemsSource="{Binding Ds_Tang}" 
+                    DisplayMemberPath="TenNhom" 
+                    SelectedValuePath="MaNhom"
+                    SelectedValue="{Binding SelectedMaNhom, UpdateSourceTrigger=PropertyChanged}" Width="150"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal"
+                        Margin="0,12,0,0">
+                <TextBlock Text="Sức chứa"
+                           Width="80"
+                           VerticalAlignment="Center"/>
+                <TextBox Text="{Binding SucChua, UpdateSourceTrigger=PropertyChanged}"
+                     Width="130"
+                     Height="24"/>
+            </StackPanel>
+
+            <Button Content="Tìm kiếm"
+                Command="{Binding TimKiemCommand}"
+                Width="90"
+                Height="30" Margin="0,10,0,0"/>
+        </StackPanel>
+        <GroupBox Header="Thông tin phòng"
+                  Grid.Column="1"
+                  Margin="5,0,0,0"
+                  Padding="10">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ListBox ItemsSource="{Binding Ds_PhongTimKiem}"
+                     SelectedItem="{Binding SelectedPhong}"
+                     DisplayMemberPath="MaPhong"
+                     Width="130"
+                     Height="160"/>
+
+                <StackPanel Grid.Column="1"
+                            Margin="10,30,0,0">
+                    <TextBlock Text="Tên phòng"/>
+                    <TextBlock Text="Sức chứa" Margin="0,13,0,0"/>
+                    <TextBlock Text="Giá" Margin="0,13,0,0"/>
+                    <TextBlock Text="Kiểu phòng" Margin="0,13,0,0"/>
+                    <TextBlock Text="Tình trạng" Margin="0,13,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2"
+                            Margin="5,30,0,0">
+                    <TextBlock Text="{Binding TenPhong}" Background="Red" Foreground="White"/>
+                    <TextBlock Text="{Binding SucChuaPhong}" Background="Red" Foreground="White" Margin="0,10,0,0"/>
+                    <TextBlock Text="{Binding GiaPhong}" Background="Red" Foreground="White" Margin="0,10,0,0"/>
+                    <TextBlock Text="{Binding KieuPhong}" Background="Red" Foreground="White" Margin="0,10,0,0"/>
+                    <TextBlock Text="{Binding TinhTrang}" Background="Red" Foreground="White" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
